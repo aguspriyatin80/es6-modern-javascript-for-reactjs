@@ -48,3 +48,5 @@ const greetings = (name) => {
     return(`Welcome ${name}`)
 }
 */
+
+PART 05: REST PARAMETER 
