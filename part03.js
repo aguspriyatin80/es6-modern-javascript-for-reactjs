@@ -1,3 +1,5 @@
+console.clear()
+
 const nickname = "agus"
 const myNickName = nickname;
 const myNickname = `${nickname}`
