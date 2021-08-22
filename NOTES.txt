@@ -23,3 +23,15 @@ let mSum = 100
 - 'const': it used to create variables with constant values also known as constants. The variables created using const cannot be updated later in the code. 
 - For example:
 const API_URL = "http://api.test.com/v1"
+
+PART 03: TEMPLATE STRINGS
+/*
+It is just a string which allows embedding expressions inside it.
+To create a template string you don't use single or double quotes,
+you use backtick(``). The expression are embedded by wrapping them inside ${}.
+For example:
+const mGreetings = `Hello ${name}`
+Here, the expression is a  variabel.
+const moreGreetings = `Hello ${fullName()}`
+Here, the expression is function call
+*/
