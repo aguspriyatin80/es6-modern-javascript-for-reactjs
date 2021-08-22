@@ -63,5 +63,12 @@ PART 06: SPREAD OPERATOR
 # bisa digunakan untuk membuat copy dari array lainnya, tetapi tidak mereference ke array yang dicopy
 # bisa digunakan untuk menggabungkan dua array/object atau lebih seperti method concat
 # tidak harus diletakkan pada parameter terakhir, tetapi sesuai kebutuhan
-
+*/
+PART 07: DESTRUCTURING 
+/*
+It allows to "unpack" arrays or objects into a bunch of variables which
+makes working with arrays and objects a bit more convenient
+Syntax:
+let [a,b] = [1,2,3,4,5]
+let {name, age} = {firstName:"Agus", lastName:"Priyatin", age:30}
 */
