@@ -1,0 +1,14 @@
+PART 1: INTRODUCTION
+# ES6 Fitures:
+- Variable creation using 'let' and 'const'
+- Template Strings
+- Arrow Functions
+- Rest and Spread Operator
+- Destructuring
+- Array functions: find(), findIndex(), map(), reduce(), filter()
+- Classes
+- Promises, etc.
+# Babel
+- It is a preprocessor Javascript/ECMAScript. 
+- It is mainly used to convert ES6+ code into a backwards compatible version of Javascript than can be run by older browser
+- babeljs.io 
