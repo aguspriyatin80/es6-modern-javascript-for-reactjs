@@ -1,4 +1,4 @@
-PART 1: INTRODUCTION
+PART 01: INTRODUCTION
 # ES6 Fitures:
 - Variable creation using 'let' and 'const'
 - Template Strings
@@ -12,3 +12,14 @@ PART 1: INTRODUCTION
 - It is a preprocessor Javascript/ECMAScript. 
 - It is mainly used to convert ES6+ code into a backwards compatible version of Javascript than can be run by older browser
 - babeljs.io 
+
+PART 02: VARIABEL CREATING USING 'LET' AND 'CONST'
+# Creating Variables
+- ES6 introduced two new ways to create Variables
+- 'let' : it is like a replacement for 'var'
+- for example:
+let mName = "Agus"
+let mSum = 100
+- 'const': it used to create variables with constant values also known as constants. The variables created using const cannot be updated later in the code. 
+- For example:
+const API_URL = "http://api.test.com/v1"
