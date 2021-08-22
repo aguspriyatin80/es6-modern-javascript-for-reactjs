@@ -50,3 +50,18 @@ const greetings = (name) => {
 */
 
 PART 05: REST PARAMETER 
+- Dengan REST parameter dapat mengenali banyak argumen
+- Jika parameter banyak maka REST PARAMETER harus diletakan paling belakang / akhir
+- contoh:
+const sum = (...args) => console.log(args)
+
+PART 06: SPREAD OPERATOR
+/*
+# Spread syntax allow array and object to be expanded into:
+- elements in case of array
+- key-value pairs in case of object
+# bisa digunakan untuk membuat copy dari array lainnya, tetapi tidak mereference ke array yang dicopy
+# bisa digunakan untuk menggabungkan dua array/object atau lebih seperti method concat
+# tidak harus diletakkan pada parameter terakhir, tetapi sesuai kebutuhan
+
+*/
