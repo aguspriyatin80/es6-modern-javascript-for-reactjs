@@ -72,3 +72,14 @@ Syntax:
 let [a,b] = [1,2,3,4,5]
 let {name, age} = {firstName:"Agus", lastName:"Priyatin", age:30}
 */
+
+PART 08: ARRAY FUNCTION: map()
+/*
+It iterates the array for us and we can pass a callback function
+to perform some operation on the each array item.
+The updated values can be returned by the callback function to create a new array.
+Syntax:
+arr.map((item)=>{
+    // callback function body
+})
+*/
