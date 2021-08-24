@@ -108,3 +108,13 @@ arr.filter(item=>{
     // Return tru/false to add/skip the current item
 })
 */
+
+PART 11: ARROW FUNCTION find() and findIndex()
+# find() untuk menemukan satu buah element dalam array yang sesuai kriteria, 
+  jika ditemukan 2 elemen atau lebih, maka elemen pertama (dari kiri) saja 
+  yang akan diambil, jika tidak ditemukan / tidak ada yang sesuai kriteria,
+  maka akan mereturn undefined
+# findIndex() menemukan element berada di index ke berapa yang sesuai kriteria, 
+  jika ditemukan lebih dari 2 element, maka yang diambil element pertama 
+  dari kiri saja yang diambil, jika tidak ditemukan / tidak ada yang sesuai kriteria
+  maka akan mereturn -1
