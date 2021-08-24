@@ -44,7 +44,7 @@ let arrObj = [
 ]
 
 const newArrObj = arrObj.map(data => {
-    console.log(data);
+    // console.log(data);
     // return
     return {
         name: data.name,
@@ -54,3 +54,4 @@ const newArrObj = arrObj.map(data => {
 })
 
 console.log(newArrObj);
+// https://ichi.pro/id/cara-menggunakan-reduce-di-javascript-157591274618284
