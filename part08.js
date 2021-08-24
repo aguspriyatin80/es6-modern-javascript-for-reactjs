@@ -54,4 +54,10 @@ const newArrObj = arrObj.map(data => {
 })
 
 console.log(newArrObj);
-// https://ichi.pro/id/cara-menggunakan-reduce-di-javascript-157591274618284
+
+// MAP()
+// let numArr = [1,2,3,4,5]
+// const numArrMapped = numArr.map(el=>{
+//   return el * 2
+// })
+// console.log(numArrMapped)

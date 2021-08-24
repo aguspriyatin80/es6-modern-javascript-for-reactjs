@@ -98,3 +98,13 @@ arr.reduce((acc,item)=>{
 example:
 
 */
+
+PART 10: ARRAY FUNCTIONS : filter()
+/*
+It iterates through the array to create a new array.
+You can decide which elements should be added in the new array based on some conditions.
+Syntax:
+arr.filter(item=>{
+    // Return tru/false to add/skip the current item
+})
+*/

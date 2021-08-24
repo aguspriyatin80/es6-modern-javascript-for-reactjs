@@ -34,3 +34,11 @@ const totalQuantity = cart.reduce((acc, item) => {
 }, 0)
 console.log(totalQuantity);
 
+// https://ichi.pro/id/cara-menggunakan-reduce-di-javascript-157591274618284
+
+// BASIC EXAMPLE
+// let numArr = [1,2,3,4,5]
+// const numArrReduced = numArr.reduce((acc,el)=>{
+//   return acc + el;
+// },0)
+// console.log(numArrReduced)
