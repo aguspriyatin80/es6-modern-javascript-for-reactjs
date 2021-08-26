@@ -153,3 +153,21 @@ const mPromise = new Promise(resolve,reject)=>{
     // Call resolve() when the operation is complete
     // Call reject() when the operation is failed 
 }
+
+PART 15: WORKING WITH PROMISES
+/*
+In javascript the code is executed line-by-line in a sequence 
+so when we run a parallel operation or asynchronous operation like fetching data
+from backend, Javascript doesn't wait for the response it simply executes the nex line of code.
+We give the asynchronous operation a function to call when it is completed.
+This function is called a Callback Function.
+*/
+# Introduction to Promises
+A promise is used to handle the asynchronous result of an operation.
+It defers the execution of a code block until an asynchronous request is completed.
+This way, other operation can keep running without interuption.
+A promise has 3 states:
+- Pending: It means the operation is going on.
+- Fulfilled: It means the operation is completed.
+- Rejected: It means the operation did not complete and an error can be thrown.
+
