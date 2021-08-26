@@ -118,3 +118,19 @@ PART 11: ARROW FUNCTION find() and findIndex()
   jika ditemukan lebih dari 2 element, maka yang diambil element pertama 
   dari kiri saja yang diambil, jika tidak ditemukan / tidak ada yang sesuai kriteria
   maka akan mereturn -1
+
+
+PART 12: CLASS IN ES6
+To create object factories, you can use the class keyword.
+Just like you would do in other programming languages like JAVA etc.
+Syntax:
+class ClassName{
+    constructor(){
+        // initialize the properties here 
+    }
+    // Methods outside constructor 
+    methods1 = ()=>{
+        // Method body 
+    }
+}
+This is just syntax-sugar. Behind the scenes everything still works the same.
