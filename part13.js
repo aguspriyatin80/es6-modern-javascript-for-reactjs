@@ -37,6 +37,8 @@ class Pilot extends Person {
 
 }
 const p = new Pilot("Agus", 40, "Programmer");
-console.log(p.getData())
-console.log(p.getDetail())
-Pilot.getData()
+const person = new Person("Agus", 41)
+console.log(typeof Person)
+// console.log(p.getData())
+// console.log(p.getDetail())
+// Pilot.getData()

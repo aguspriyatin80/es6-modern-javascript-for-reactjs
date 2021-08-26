@@ -135,7 +135,7 @@ class ClassName{
 }
 This is just syntax-sugar. Behind the scenes everything still works the same.
 
-PART 12: INHERITANCE IN ES6
+PART 13: INHERITANCE IN ES6
 /*
 ES6 provides us with a keyword called extends to inherit classes.
 Syntax:
@@ -144,4 +144,12 @@ class ChildClass{
 }
 class ChildClass extends ParentClass{
     
+}
+
+PART 14: CALLBACK & PROMISE
+Syntax:
+const mPromise = new Promise(resolve,reject)=>{
+    // Promise body
+    // Call resolve() when the operation is complete
+    // Call reject() when the operation is failed 
 }
