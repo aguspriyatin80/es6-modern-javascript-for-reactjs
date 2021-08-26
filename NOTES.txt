@@ -120,7 +120,7 @@ PART 11: ARROW FUNCTION find() and findIndex()
   maka akan mereturn -1
 
 
-PART 12: CLASS IN ES6
+PART 12: INTRODUCTION TO CLASSES
 To create object factories, you can use the class keyword.
 Just like you would do in other programming languages like JAVA etc.
 Syntax:
@@ -134,3 +134,14 @@ class ClassName{
     }
 }
 This is just syntax-sugar. Behind the scenes everything still works the same.
+
+PART 12: INHERITANCE IN ES6
+/*
+ES6 provides us with a keyword called extends to inherit classes.
+Syntax:
+class ChildClass{
+    // class body
+}
+class ChildClass extends ParentClass{
+    
+}
